@@ -23,23 +23,4 @@ let rayon = 5;
 
 let perimetre = 2 * PI * rayon;
 
-console.log(perimetre);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   +
+console.log(perimetre) 
