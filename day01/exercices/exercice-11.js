@@ -17,4 +17,17 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let panier = 350;
+let livraisonGratuite = false;
+let reduction = 0;
+if (panier > 200) {
+    livraisonGratuite = true;
+}
+if (panier > 500) {
+    reduction = panier * 0.10;
+}
+
+let coutFinal = panier - reduction;
+
+console.log(`Coût final: ${coutFinal} MAD, Livraison: ${livraisonGratuite ? 'Gratuite' : 'Payante'}`);
