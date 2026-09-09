@@ -6,7 +6,7 @@
  *
  * 🎯 MISSION
  * Soit un solde de départ solde = 1000. Vous retirez 200 MAD (-=), puis la banque vous verse 5% d'intérêts sur le solde restant (*= 1.05). Affichez le nouveau solde.
- *
+ 
  * RÉSULTAT ATTENDU
  * 840
  *

@@ -19,7 +19,6 @@
 // 2. Écris ta solution sous cette ligne.
 
 
-'use strict';
 
 
 let annee = 2024;

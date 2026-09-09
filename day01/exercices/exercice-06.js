@@ -23,6 +23,6 @@ let compteur = 0;
 compteur++;
 compteur++;
 compteur++;
-
+-
 console.log(compteur);
 

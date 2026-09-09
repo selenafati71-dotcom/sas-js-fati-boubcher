@@ -22,6 +22,11 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+let  : permet de dé clarer une variable dont la valeur peut changer.
+var  : est une ancienne manièr e de déclarer les variables et elle est moins recommandée aujourd'hui.
+const:  permet de déclarer une variable dont la valeur ne peut pas être réassignée.
+
+
 
 > À compléter avec mes propres mots.
 
