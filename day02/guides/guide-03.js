@@ -9,4 +9,13 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
+for (let i = 0; i < 3; i++) {
+    let ligne = "";
+
+    for (let j = 0; j < 3; j++) {
+        ligne += "*";
+    }
+
+    console.log(ligne);
+}

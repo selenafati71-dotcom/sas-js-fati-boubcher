@@ -22,6 +22,9 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+for :On l’utilise généralement lorsque nous connaissons le nombre de répétitions.
+while :On l’utilise lorsque la répétition dépend d’une condition.
+
 
 > À compléter avec mes propres mots.
 
@@ -34,7 +37,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+while :rifie la condition avant d'exécuter le code.
+do while : exécute le code au moins une fois, puis vérifie la condition.
 > À compléter avec mes propres mots.
 
 ---
@@ -46,6 +50,9 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+i j'oublie de modifier la variable ou la condition d'arrêt, la condition peut rester toujours vraie.
+
+La boucle continue alors sans jamais s'arrêter. On appelle cela une boucle infinie
 
 > À compléter avec mes propres mots.
 
@@ -58,6 +65,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Le mot-clé break permet de sortir immédiatement d'une boucle, même si sa condition est encore vraie.
 
 > À compléter avec mes propres mots.
 
@@ -70,6 +78,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Le mot-clé continue permet de sauter l'itération actuelle et de passer directement à la suivante
 
 > À compléter avec mes propres mots.
 
@@ -82,6 +91,11 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Initialisation
+Condition
+Exécution du bloc de code
+Incrémentation
+Retour à l'étape 2
 
 > À compléter avec mes propres mots.
 
@@ -94,6 +108,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Oui, c'est possible.
 
 > À compléter avec mes propres mots.
 
@@ -106,6 +121,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Une boucle imbriquée est une boucle à l'intérieur d'une autre boucle.
+On l'utilise lorsqu'on doit répéter une action pour chaque élément d'un autre ensemble.
 
 > À compléter avec mes propres mots.
 
@@ -118,6 +135,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Plusieurs boucles imbriquées peuvent rendre le programme plus lent, car elles augmentent le nombre d’opérations.
+
 
 > À compléter avec mes propres mots.
 
@@ -130,11 +149,12 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Oui, on peut utiliser un switch à l'intérieur d'une boucle.
 
 > À compléter avec mes propres mots.
 
 
 ## ✅ Validation de la recherche
 
-- [ ] Je peux expliquer au moins trois réponses sans lire mes notes.
+- [] Je peux expliquer au moins trois réponses sans lire mes notes.
 - [ ] J'ai noté les notions que je dois encore clarifier.

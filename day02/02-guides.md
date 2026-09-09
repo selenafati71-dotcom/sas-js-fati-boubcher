@@ -35,8 +35,8 @@ Vous savez exactement combien de fois vous voulez répéter l'action. La boucle 
 - [ ] Mon fichier s'exécute sans erreur.
 - [ ] Je peux expliquer chaque étape.
 
-
 ---
+for (let i = ; i 
 
 ## 🧩 Guide 02 — Attendre un événement (Boucle while)
 
