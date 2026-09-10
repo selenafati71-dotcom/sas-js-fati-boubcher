@@ -9,4 +9,12 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
+
+
+function test() {
+    let nom = "Fatima";
+    console.log(nom);
+}
+
+test();
