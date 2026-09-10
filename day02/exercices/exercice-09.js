@@ -18,4 +18,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+for (let i = 1; i <= 50; i++) {
+    if (i % 3 === 0 && i % 5 ===0 )
+        console.log("fizzbuzz");
+    else if (i % 3 === 0)
+        console.log("fizzz");
+    else if (i % 5 ===0)
+        console.log("buzz");
+    else
+        console.log(i);
+    
+}
