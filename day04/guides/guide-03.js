@@ -9,4 +9,8 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
+
+const carre = x => x * x;
+
+console.log(carre(5));
