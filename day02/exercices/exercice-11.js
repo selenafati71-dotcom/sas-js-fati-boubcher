@@ -18,3 +18,9 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
+  let resultat = 1;
+  for (let i =1; i<=10; i++) {
+    resultat =resultat * 2;
+
+  }
+  console.log(resultat);
