@@ -14,8 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+const multiplier = (a, b) => a * b
 
 function executerOperation(a, b, operation) {
     return operation(a, b);
-    
-}
+
+
+}console.log(executerOperation(5, 3, multiplier));
