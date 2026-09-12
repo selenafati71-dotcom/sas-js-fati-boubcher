@@ -14,4 +14,23 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+const cache = {} ;
+function calculong(nomber){
+    if(cache [nomber] !== undefined ){
+        console.log("resultat de puis le cache");
+        return cache [nomber];
+    }
+    console.log("calculer en cours...");
+        const resultat = nomber * nomber
+        cache [nomber] = resultat;
+        return resultat ;
+}
+console.log(calculong(5));
+console.log(calculong(5));
+console.log(calculong(10));
+console.log(calculong(10));
+
+
+
+
