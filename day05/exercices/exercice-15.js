@@ -16,3 +16,11 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
+'use strict';
+
+
+let mot1 = "chien";
+let mot2 = "niche";
+let resultat1 = mot1.split("").sort().join("");
+let resultat2 = mot2.split("").sort().join("");
+console.log(resultat1 === resultat2);
