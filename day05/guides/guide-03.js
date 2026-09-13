@@ -9,4 +9,7 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+
+let url = "youcode-safi-2024";
+let resultat = url.replaceAll("-", "  ")
+console.log(resultat);
