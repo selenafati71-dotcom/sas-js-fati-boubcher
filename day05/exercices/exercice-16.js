@@ -14,4 +14,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let tweet = "Beau temps à #Nador aujourd'hui avec la team #YouCode !";
+let hashtags = tweet.match(/#[a-zA-Z0-9_]+/g);
+console.log(hashtags);
