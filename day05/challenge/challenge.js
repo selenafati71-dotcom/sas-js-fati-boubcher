@@ -22,5 +22,17 @@
  */
 'use strict';
 
-// Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+
+let motsInterdits = ["noob", "idiot", "nul"];
+function filtrerMessage(message) {
+    let resultat = message;
+    for (let mot of motsInterdits) {
+        let regex = new RegExp(mot, "gi");
+        let etoiles = "*".repeat(mot.length);
+        resultat = resultat.replace(regex, etoiles);
+    }
+    return resultat;
+}
+console.log(
+    filtrerMessage("Tu es vraiment un GROS NooB et un idiot !!")
+);
