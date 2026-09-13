@@ -12,6 +12,15 @@
  */
 'use strict';
 
-// 1. Identifie les données nécessaires.
-// 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let paragraphe = "Je suis une etudiante en informatique";
+function compterE(texte) {
+    let compteur = 0;
+    for (let lettre of texte.toLowerCase()) {
+        if (lettre === "e") {
+            compteur++;
+        }
+    }
+    return compteur;
+}
+console.log(compterE(paragraphe));
