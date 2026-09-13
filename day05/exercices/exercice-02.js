@@ -16,4 +16,5 @@
 // 2. Écris ta solution sous cette ligne.
 
 const mot = "Programmation"
-
+console.log(mot[0]);
+console.log(mot[mot.length-1])
