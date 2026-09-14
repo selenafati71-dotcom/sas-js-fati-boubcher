@@ -33,6 +33,4 @@ function filtrerMessage(message) {
     }
     return resultat;
 }
-console.log(
-    filtrerMessage("Tu es vraiment un GROS NooB et un idiot !!")
-);
+console.log(  filtrerMessage("Tu es vraiment un GROS NooB et un idiot !!"));

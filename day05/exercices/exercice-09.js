@@ -15,5 +15,5 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 let phrase =  "Ne sois pas idiot, réfléchis avant de parler.";
-let phrase2 = phrase.toLowerCase();
-console.log(phrase2.replace("idiot","*"));
+//let phrase2 = phrase.toLowerCase();//
+console.log(phrase.replace("idiot","*"));

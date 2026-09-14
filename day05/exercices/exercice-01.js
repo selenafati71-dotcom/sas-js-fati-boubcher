@@ -16,8 +16,6 @@
 // 2. Écris ta solution sous cette ligne.
 
 
-
-
 const mot = "Anticonstitutionnellement";
 
 console.log(mot.length);

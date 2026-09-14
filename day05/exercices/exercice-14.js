@@ -15,7 +15,7 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
-let phrase = "Bonjour   tout le monde";
+let phrase = "Bonjour  tout le monde";
 
 let mots = phrase.trim().split(/\s+/);
 

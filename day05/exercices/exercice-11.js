@@ -18,12 +18,9 @@
 
 
 let phrase = "Hyper Text Markup Language";
-
 let mots = phrase.split(" ");
 let acronyme = "";
-
 for (let mot of mots) {
     acronyme += mot[0].toUpperCase();
-}
-
+}   
 console.log(acronyme);
