@@ -1,17 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 16 · NIVEAU 3 : DÉFI (AVANCÉS)
- * EXTRACTION DE HASHTAGS
+ * JOUR 06 · EXERCICE 05 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * CHERCHER UNE VALEUR (INCLUDES)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * À partir d'un tweet : "Beau temps à #Nador aujourd'hui avec la team #YouCode !", extrayez tous les hashtags et retournez-les dans un tableau ["#Nador", "#YouCode"].
+ * Vérifiez si "Marrakech" est présent dans le tableau villes = ["Rabat", "Casablanca", "Tanger"]. Affichez true ou false.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-16
- * ▶️ Commande : node day05/exercices/exercice-16.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-05
+ * ▶️ Commande : node day05/exercices/exercice-05.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
+// TODO: écris ta solution ici.

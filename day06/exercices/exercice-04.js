@@ -1,17 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 16 · NIVEAU 3 : DÉFI (AVANCÉS)
- * EXTRACTION DE HASHTAGS
+ * JOUR 06 · EXERCICE 04 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * PARCOURIR AVEC UN `FOR` CLASSIQUE
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * À partir d'un tweet : "Beau temps à #Nador aujourd'hui avec la team #YouCode !", extrayez tous les hashtags et retournez-les dans un tableau ["#Nador", "#YouCode"].
+ * Créez nombres = [10, 20, 30, 40]. Utilisez une boucle for (avec i = 0 jusqu'à length) pour afficher chaque nombre multiplié par 2.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-16
- * ▶️ Commande : node day05/exercices/exercice-16.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-04
+ * ▶️ Commande : node day05/exercices/exercice-04.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
+// TODO: écris ta solution ici.

@@ -1,17 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 05 · EXERCICE 16 · NIVEAU 3 : DÉFI (AVANCÉS)
- * EXTRACTION DE HASHTAGS
+ * JOUR 06 · EXERCICE 17 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * OCCURRENCES
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * À partir d'un tweet : "Beau temps à #Nador aujourd'hui avec la team #YouCode !", extrayez tous les hashtags et retournez-les dans un tableau ["#Nador", "#YouCode"].
+ * Créez une fonction qui prend un tableau de mots ["pomme", "banane", "pomme", "orange", "banane", "pomme"]. Comptez combien de fois chaque élément apparaît. (Vous pouvez afficher : "pomme: 3, banane: 2, orange: 1").
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-16
- * ▶️ Commande : node day05/exercices/exercice-16.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-17
+ * ▶️ Commande : node day05/exercices/exercice-17.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
+// TODO: écris ta solution ici.
