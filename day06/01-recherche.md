@@ -22,6 +22,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Le premier élément d'un tableau se trouve à l'index 0. En JavaScript, les index commencent toujours par 0.
 
 > À compléter avec mes propres mots.
 
@@ -34,6 +35,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+La méthode .push() ajoute un élément à la fin du tableau, tandis que .unshift() ajoute un élément au début du tableau.
 
 > À compléter avec mes propres mots.
 
@@ -46,6 +48,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+La méthode .pop() supprime le dernier élément du tableau, tandis que .shift() supprime le premier élément.
 
 > À compléter avec mes propres mots.
 
@@ -58,6 +61,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+a propriété .length d'un tableau vide [] retourne 0, parce qu'il n'y a aucun élément dans le tableau.
 
 > À compléter avec mes propres mots.
 
@@ -70,6 +74,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+for...in permet de parcourir les index d'un tableau, alors que for...of permet de parcourir directement les valeurs.
 
 > À compléter avec mes propres mots.
 
@@ -82,6 +87,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+-Pour vérifier si une variable est un tableau, j'utilise Array.isArray().
+-typeof [] donne "object", donc typeof seul ne permet pas de savoir correctement si c'est un tableau.
 
 > À compléter avec mes propres mots.
 
@@ -94,6 +101,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Pour fusionner deux tableaux, je peux utiliser la méthode .concat()
 
 > À compléter avec mes propres mots.
 
@@ -106,6 +114,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+.slice(): permet de récupérer une partie d'un tableau sans modifier le tableau original.
+.splice(): permet de supprimer, remplacer ou ajouter des éléments et modifie le
 
 > À compléter avec mes propres mots.
 
@@ -118,6 +128,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Quand j'assigne un tableau à une nouvelle variable, les deux variables font référence au même tableau. Donc, si je modifie le tableau avec l'une des variables, l'autre voit aussi la modification.
 
 > À compléter avec mes propres mots.
 
@@ -130,6 +141,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Oui, JavaScript permet de stocker des types différents dans le même tableau, par exemple un nombre, une chaîne de caractères et un booléen.
 
 > À compléter avec mes propres mots.
 
