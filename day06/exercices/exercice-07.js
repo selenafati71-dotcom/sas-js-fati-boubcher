@@ -15,4 +15,5 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 let tableau  = [1, 2, 3, 4, 5];
-
+let resultat = tableau.reverse();
+console.log(resultat);
