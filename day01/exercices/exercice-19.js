@@ -21,7 +21,7 @@
 
 
 
-'use strict';
+
 
 
 let hasAccount = false;
