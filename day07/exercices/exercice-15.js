@@ -1,25 +1,19 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 06 · EXERCICE 15 · NIVEAU 3 : DÉFI (AVANCÉS)
- * FUSION TRIÉE
+ * JOUR 07 · EXERCICE 15 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * SIMULATION DE PARSING JSON
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Vous avez deux tableaux DÉJÀ triés : [1, 3, 5] et [2, 4, 6]. Écrivez un algorithme pour les fusionner en un seul tableau trié [1, 2, 3, 4, 5, 6] (sans utiliser .sort()).
+ * Vous recevez de l'API web la chaîne de caractères (JSON) suivante :
+ * '{"id":1, "titre":"Apprendre le JS", "vu":false}'.
+ * Transformez cette chaîne en véritable objet JavaScript, passez vu à true, et re-transformez-le en chaîne JSON.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-15
- * ▶️ Commande : node day05/exercices/exercice-15.js
+ * ▶️ Commande : node day07/exercices/exercice-15.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-
-let tab1 = [1, 3, 5];
-let tab2 = [2, 4, 6];
-let resultat = [];
-for ( let i = 0; i < tab1.length; i++) { 
-    resultat.push(tab1[i]);
-    resultat.push(tab2[i]);
-}
-console.log(resultat)
+// TODO: écris ta solution ici.

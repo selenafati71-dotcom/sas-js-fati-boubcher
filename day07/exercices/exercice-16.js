@@ -1,17 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 06 · EXERCICE 16 · NIVEAU 3 : DÉFI (AVANCÉS)
- * SCRAPING : EXTRACTION DE DONNÉES MIXTES
+ * JOUR 07 · EXERCICE 16 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * IMBRICATION COMPLEXE (NESTED OBJECTS)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Vous avez "scrappé" une page mal codée et obtenu ce tableau : ["Prix", 15.5, null, "Quantite", 3, undefined, "Total", 46.5]. Écrivez une fonction qui filtre ce tableau pour ne garder QUE les nombres valides.
+ * Créez un objet entreprise qui a un nom, et une propriété employes qui est un tableau d'objets. Affichez le prénom du deuxième employé.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-16
- * ▶️ Commande : node day05/exercices/exercice-16.js
+ * ▶️ Commande : node day07/exercices/exercice-16.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-let scrappe = ["Prix", 15.5, null, "Quantite", 3, undefined, "Total", 46.5]
+// TODO: écris ta solution ici.
