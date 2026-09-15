@@ -13,5 +13,8 @@
 'use strict';
 
 // 1. Identifie les données nécessaires.
-// 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+// 2. Écris ta solution sous cette ligne
+let tab1 = [1, 2, 3];
+let dernier = tab1.pop();
+tab1.unshift(dernier);
+console.log(tab1);
