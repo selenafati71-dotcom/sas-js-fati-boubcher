@@ -14,4 +14,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function tableau(nombers){
+    let resultat =  []
+    for (let nomber of nombers){
+        if ( !resultat.includes(nomber) ){
+            resultat.push(nomber)
+        }
+    }
+    return(resultat);
+}
+console.log(tableau([1, 2, 2, 3, 4, 4, 5]));
