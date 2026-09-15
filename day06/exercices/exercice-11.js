@@ -14,4 +14,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let tableau = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+let pertableau = tableau.slice(0, 10)
+console.log(pertableau);
