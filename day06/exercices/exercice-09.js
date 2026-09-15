@@ -14,4 +14,17 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function tableau(nombers){
+    let tableaux = [];
+for ( let i of nombers){
+    if (i % 2 === 0){
+        tableaux.push(i)
+       }
+      
+    } 
+
+    return(tableaux);
+}
+
+console.log(tableau([1, 2, 3, 4, 5, 6]));

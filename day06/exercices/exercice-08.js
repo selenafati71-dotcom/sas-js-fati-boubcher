@@ -14,4 +14,25 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+  function tableaux(nombers){
+    let plusgrande = nombers[0];
+    let pluspetit = nombers[0];
+    for(let i of nombers){
+    if (i > plusgrande){
+        plusgrande = i
+    }else if (i < pluspetit){
+        pluspetit = i 
+
+    }
+}
+        return {
+            plusgrande,
+            pluspetit
+        };
+
+    }     
+    
+   
+ 
+  
+console.log(tableaux([10, 4, 15, 25,9]));
