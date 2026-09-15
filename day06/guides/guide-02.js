@@ -9,4 +9,8 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let notes = [12, 15, 8, 19];
+let somme = 0;
+for(let note of notes){
+   somme = somme + note;
+}

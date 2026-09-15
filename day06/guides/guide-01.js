@@ -9,5 +9,6 @@
  */
 'use strict';
 let fruits = ["Pomme", "Banane", "Orange"];
-// let tableau = fruits./
-// 
+fruits[1] = "Mangue";
+console.log(fruits[fruits.length - 1]);
+console.log(fruits);
