@@ -14,4 +14,11 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+const utilisateur = {
+     nom : "faty",
+    age : 22,
+    estAdmin : false,
+
+}
+let  tableau = Object.keys(utilisateur);
+console.log(tableau.length);

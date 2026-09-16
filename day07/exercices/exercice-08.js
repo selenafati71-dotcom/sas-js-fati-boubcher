@@ -14,4 +14,37 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+
+let candidats = [
+    {    
+        nom: "ouiame",
+        score: 13
+    },
+
+    {    
+        nom: "faty",
+        score: 12
+    },
+
+    {    
+        nom: "amina",
+        score: 20
+    },
+]
+
+function meilleurCandidat(condidats) {
+    let maxScore = candidats[0].score;
+    let maxName = candidats[0].nom;
+
+    for (let i = 1; i < candidats.length; i++) {
+        if (candidats[i].score > maxScore) {
+            maxScore = condidats[i].score;
+            maxName = condidats[i].nom;
+        }
+    }
+
+    return maxName;
+}
+
+console.log(meilleurCandidat(candidats));

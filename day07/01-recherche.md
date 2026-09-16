@@ -22,6 +22,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+-->La notation pointée permet d'accéder facilement à une propriété quand je connais son nom directement.
+--> Avec les crochets, je peux aussi utiliser une variable comme nom de propriété. Les crochets sont obligatoires quand le nom de la propriété contient des caractères spéciaux ou un espace.
 
 > À compléter avec mes propres mots.
 
@@ -34,6 +36,8 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Si j'essaie d'accéder à une propriété qui n'existe pas, JavaScript retourne undefined.
+let utilisateur = { nom: "Fatima" };
 
 > À compléter avec mes propres mots.
 
@@ -46,6 +50,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Je peux simplement créer une nouvelle propriété avec la notation pointée ou les crochets.
 
 > À compléter avec mes propres mots.
 
@@ -58,6 +63,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+J'utilise le mot-clé delete.
 
 > À compléter avec mes propres mots.
 
@@ -70,7 +76,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
-
+Pour parcourir les clés d'un objet, j'utilise for...in.
 > À compléter avec mes propres mots.
 
 ---
@@ -82,6 +88,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+this représente l'objet qui utilise la méthode. Il permet d'accéder aux propriétés de cet objet.
 
 > À compléter avec mes propres mots.
 
@@ -94,6 +101,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+JSON est un format texte utilisé pour stocker et échanger des données. Il ressemble à un objet JavaScript, mais c'est une chaîne de caractères.
 
 > À compléter avec mes propres mots.
 
@@ -106,6 +114,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+La méthode est JSON.stringify()
 
 > À compléter avec mes propres mots.
 
@@ -118,6 +127,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+La méthode est JSON.parse().
 
 > À compléter avec mes propres mots.
 
@@ -130,6 +140,7 @@
 - [ ] J'ai recherché et compris la notion.
 
 **Ma réponse :**
+Quand je fais const obj2 = obj1, les deux variables font référence au même objet. Donc si je modifie obj2, la modification apparaît aussi dans obj1.
 
 > À compléter avec mes propres mots.
 

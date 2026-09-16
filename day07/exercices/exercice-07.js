@@ -14,4 +14,20 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let tableau = [
+    {
+        titre : "Le Petit Prince",
+        auteur : "Antoine de Saint-Exupéry"
+    },
+
+    {
+        titre : "L’Étranger",
+        auteur :  "Albert Camus",
+    },
+
+    {   titre : "Les Misérables",
+        auteur : "  Victor Hugo",
+    }
+]
+
+console.log(tableau[1].titre);

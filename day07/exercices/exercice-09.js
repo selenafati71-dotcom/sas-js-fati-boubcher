@@ -14,4 +14,30 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+let candidats = [
+    {    
+        nom: "ouiame",
+        score: 13
+    },
+
+    {    
+        nom: "faty",
+        score: 12
+    },
+
+    {    
+        nom: "amina",
+        score: 2
+    },
+]
+function meilleurCandidat(condidats) {
+    let tableau = [];
+    for (let i = 0; i < condidats.length; i++){
+        if ( condidats[i].score >= 10 ){
+            tableau.push(condidats[i]);
+        }
+    }
+    return tableau;
+}
+console.log(meilleurCandidat(candidats));

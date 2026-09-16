@@ -14,4 +14,19 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+
+function occurrences(chaineCaracter){
+    const obj  = {}
+    for (let i = 0;i < chaineCaracter.length; i++){
+        let alphabet = chaineCaracter[i];
+        if (alphabet in obj){
+            obj[alphabet]++;
+        } else {
+            obj[alphabet] = 1;
+        }
+    }
+
+    return obj;
+}
+
+console.log(occurrences("abracadabra"))

@@ -9,4 +9,14 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let  voiture = {
+    modele : "corola",
+    marqe : "toyota",
+    couleur : "noir",
+
+}
+/*
+for (let  [key, val] of Object.entries(voiture)){
+    console.log(key, val);
+}*/
+console.log(voiture);

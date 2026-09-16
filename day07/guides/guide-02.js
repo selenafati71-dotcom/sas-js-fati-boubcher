@@ -9,4 +9,12 @@
  */
 'use strict';
 
-// TODO: écris ta solution ici.
+let  voiture = {
+    modele : "corola",
+    marqe : "toyota",
+    couleur : "noir",
+
+}
+
+let cleRecherche = "modele";
+console.log(voiture[cleRecherche]);
