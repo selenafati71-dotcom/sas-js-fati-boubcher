@@ -21,4 +21,5 @@ const compteBancaire = {
     }
 };
 compteBancaire.deposer(10);
+compteBancaire.deposer(10);
 console.log(compteBancaire.solde);
