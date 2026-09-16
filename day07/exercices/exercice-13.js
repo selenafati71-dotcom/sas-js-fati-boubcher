@@ -15,3 +15,11 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 
+let  infoClient = {
+    nom : "Ali"
+};
+let  infoPaiement = {
+    methode : "Carte"
+};
+let resultat = Object.assign({},infoClient, infoPaiement );
+console.log(resultat);
