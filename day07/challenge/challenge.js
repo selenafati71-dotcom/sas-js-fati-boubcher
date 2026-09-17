@@ -20,4 +20,37 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+const utilisateurs  = [];
+let idUnique = 1;
+
+  function ajouterUtilisateur(nom, email){
+    let objet = {
+          id : idUnique,
+          nom : nom,
+          email : email
+    };
+
+    idUnique++;
+
+    utilisateurs.push(objet);
+}
+
+function trouverParEmail(email){
+    for (let i = 0; i < utilisateurs.length; i++){
+        if ( utilisateurs[i].email === email) {
+            return utilisateurs[i];
+        }
+    }
+
+    return {}
+}
+function supprimerParId(id){
+    for (let i = 0; i < utilisateurs.length; i++)
+        if (utilisateurs[i].id === id){
+           utilisateurs.splice(i, 1);
+            break;
+        }
+}
+ function afficherAnnuaire(){
+    
+ }
